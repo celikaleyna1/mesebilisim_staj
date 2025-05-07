@@ -1,0 +1,65 @@
+{
+  box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+  background-color:rgb(230, 240, 247);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+h1{
+ font-weight: bolder;
+  color:blueviolet;
+  text-align: center;
+}
+h2{
+  font-weight: bolder;
+   color:blueviolet;
+ }
+
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: rgb(103, 18, 183);
+}
+
+
+

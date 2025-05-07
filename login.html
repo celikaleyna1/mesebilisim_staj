@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giriş</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>  
+    <div class="container">
+        <div id="loginSection" class="card">
+            <h1>Thingsboard Dashboard</h1>
+            <div class="login-form">
+                <h2>Giriş Yap</h2>
+                <form id="loginForm">  
+                    <label for="username">Kullanıcı Adı : </label>
+                    <input type="text" id="username" placeholder="Kullanıcı adınızı giriniz.">
+
+                    <label for="password">Şifre : </label>
+                    <input type="password" id="password" placeholder="Şifrenizi giriniz.">
+
+                    <label for="postName">Post Name:</label>
+                    <input type="text" id="postName" placeholder="Post Name giriniz." >
+
+                    <div id="errorMessage" class="error-message"></div>  
+                    <button type="submit" id="loginBtn">
+                        <span class="spinner" id="loginSpinner"></span>
+                        Giriş Yap
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>  
+
+    <script src="login.js"></script>
+</body>
+</html>
+
+
