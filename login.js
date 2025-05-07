@@ -16,7 +16,7 @@ document.getElementById("loginForm").addEventListener("submit", async function (
   errorMessage.textContent = "";
 
   try {
-    const res = await fetch(`${API_BASE}/api/auth/login`, {
+    cotgrgtrgt4g4frfnst res = await fetch(`${API_BASE}/api/auth/login`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ username, password })
